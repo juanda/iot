@@ -45,11 +45,25 @@ decrease when light intensity rise.
 (https://www.raspberrypi.org/learning/physical-computing-with-python/ldr/)
 (https://pimylifeup.com/raspberry-pi-light-sensor/)
     
-For humidity and temperature messure a DHT11 sensor is used. In order
-to use this sensor with the raspberry pi we have used this library:
+For humidity and temperature messure a DHT11 sensor is used. The pinout 
+of this sensor has only 3 pins: VCC, GND and DATA, so it is very easy to
+plug to the GPIO. However the communication process to read the messure
+is a bit elaborated. This process is explained here:
+ 
+http://www.micro4you.com/files/sensor/DHT11.pdf
+
+Affortunately Adafruit team has developed a library which implements all
+the nitty-gritty of such communication process:
 
 https://github.com/adafruit/Adafruit_Python_DHT.git
 
-Developed by adafruit team.
+We have made use of this library and taken information from:
+
+https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/wiring?view=all
+
+# The circuit
+
+See ``iot.pdf`` to see the circuit schematic.
+
 
 
