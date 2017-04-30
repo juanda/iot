@@ -1,13 +1,12 @@
 import json
 import requests
 
-
 def send(device, datos, api_key):
     """
-    Envía los datos recogidos por un device a la api de carriots
-    :param device El dispositivo, Ej: resistencia@juandalibaba.juandalibaba
-    :param datos: un diccionario con los datos a enviar
-    :return: la respuesta HTTP
+    Sends data gathered by a device to carriots through API
+    :param device  Example: resistencia@juandalibaba.juandalibaba
+    :param datos:  a dict with data to send
+    :return:  the response  HTTP
     """
 
     h = {

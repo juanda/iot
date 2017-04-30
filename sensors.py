@@ -3,7 +3,7 @@ import time
 import Adafruit_DHT
 
 def get_humidity_and_temperature(pin):
-    humidity, temperature = Adafruit_DHT.read_retry('11', pin)
+    humidity, temperature = Adafruit_DHT.read_retry(Adafruit_DHT.DHT11, pin)
     return humidity, temperature
 
 def get_light_intensity(pin):
