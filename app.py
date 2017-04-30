@@ -14,22 +14,24 @@ time_beetwen_mesure = 10
 logging.basicConfig(filename='iot.log', level=logging.DEBUG)
 
 try:
-    sleep(time_beetwen_mesure)
-    light_intensity = get_light_intensity(pin_light)
-    humidity, temperature = get_humidity_and_temperature(pin_dht11)
+    while True:
+        light_intensity = get_light_intensity(pin_light)
+        humidity, temperature = get_humidity_and_temperature(pin_dht11)
 
-    data = {
-        'light_intensity': light_intensity,
-        'humidity': humidity,
-        'temperature': temperature
-    }
+        data = {
+            'light_intensity': light_intensity,
+            'humidity': humidity,
+            'temperature': temperature
+        }
 
-    r = send(device, data, api_key)
+        r = send(device, data, api_key)
 
-    if r.status_code != 200:
-        logging.error('Error: {}'.format(r.text))
-    else:
-        logging.info(r.text)
+        if r.status_code != 200:
+            logging.error('Error: {}'.format(r.text))
+        else:
+            logging.info(r.text)
+        
+        sleep(time_beetwen_mesure)
 except KeyboardInterrupt:
     logging.info('exited (keyboard interrupt')
     print('exited')
