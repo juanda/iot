@@ -1,5 +1,9 @@
 import RPi.GPIO as GPIO
+<<<<<<< HEAD
 ksksksks
+=======
+kakajajaja
+>>>>>>> 37a5ea51e0eb8b7f5e33440898af7e3cb114d4a9
 import logging
 
 from time import  sleep
