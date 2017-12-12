@@ -2,6 +2,7 @@
 instalacion
 listo el error
 resuleto
+jjjjj
 ooooo
 kokokoko
 
