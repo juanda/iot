@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+sosososos
 import time
 import Adafruit_DHT
 
