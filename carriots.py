@@ -1,4 +1,5 @@
 import json
+klklk
 import requests
 
 def send(device, datos, api_key):
