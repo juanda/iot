@@ -1,5 +1,7 @@
 import RPi.GPIO as GPIO
 ksksksksks
+sosoos
+saodoas
 ksksksks
 kakajajaja
 import logging
