@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+kakajajaja
 import logging
 
 from time import  sleep
