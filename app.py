@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+ososoos
 ososoo
 ksksksks
 kakajajaja
