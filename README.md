@@ -2,6 +2,7 @@
 instalacion
 listo el error
 resuleto
+ooooo
 
 - Install "requests" library:
     
