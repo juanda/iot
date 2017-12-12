@@ -3,6 +3,7 @@ instalacion
 listo el error
 resuleto
 ooooo
+kokokoko
 
 - Install "requests" library:
     
