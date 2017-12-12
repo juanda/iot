@@ -3,6 +3,8 @@ liooooo
 ksksksksks
 sosoos
 saodoas
+ososoos
+ososoo
 ksksksks
 kakajajaja
 import logging
