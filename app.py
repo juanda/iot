@@ -1,4 +1,5 @@
 import RPi.GPIO as GPIO
+juanda
 import logging
 
 from time import  sleep
