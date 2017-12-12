@@ -1,4 +1,5 @@
 import json
+kakakakalak
 import requests
 
 def send(device, datos, api_key):
